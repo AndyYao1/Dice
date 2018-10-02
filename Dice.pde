@@ -20,7 +20,7 @@ void draw()
 	fill(255,255,255);
 	rect(0,950,1000,50);
 	fill(0,0,0);
-	text("Total: " + total, 400, 970);
+	text("Total: " + total, 470, 970);
 }
 void mousePressed()
 {
