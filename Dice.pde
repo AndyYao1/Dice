@@ -7,6 +7,7 @@ void setup()
 	background(0);
 	noLoop();
 }
+
 void draw()
 {
 	//your code here
@@ -24,9 +25,10 @@ void draw()
 }
 void mousePressed()
 {
-	redraw();
 	total = 0;
+	redraw();
 }
+
 class Die //models one single dice cube
 {
 	//variable declarations here
